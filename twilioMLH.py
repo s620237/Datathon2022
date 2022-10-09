@@ -42,7 +42,7 @@ def sendRandomText(sc):
     messageBody = response.generations[0].text
 
     message = client.messages.create(body=messageBody,from_='+14452567085',to='+14096738804')
-    sc.enter(2, 1, sendRandomText, (sc,))
+    sc.enter(300, 1, sendRandomText, (sc,))
 
-s.enter(2, 1, sendRandomText, (s,))
+s.enter(300, 1, sendRandomText, (s,))
 s.run()
