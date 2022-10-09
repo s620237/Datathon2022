@@ -1,4 +1,3 @@
-from curses.ascii import isupper
 import cohere
 co = cohere.Client('dMIKaNIyifhwVK3lOPYRjtjPh6X5RH4ZJuso9vsW')
 
