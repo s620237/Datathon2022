@@ -1,0 +1,7 @@
+numpy==1.23.3
+keras
+tensorflow==2.10.0
+pillow==9.2.0
+glob
+itertools
+PIL
